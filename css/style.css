@@ -1,0 +1,132 @@
+ body{
+    margin: 0;
+    text-align: center;
+    color: #40514e;
+    padding: 0;
+}
+h1{
+    font-family: 'Lovers Quarrel', cursive;
+    font-size: 10rem;
+    font-weight: normal;
+    margin: 0;
+    padding-bottom: 1rem;
+    
+}
+h2{
+    font-family: 'Overlock', cursive;
+    font-size: 2.5rem;
+    color:#1e836c;
+   
+}
+h3{
+    font-family: 'Comfortaa', cursive;
+    color: #45b29a;
+    font-size: 1.5rem;
+}
+p{
+    font-family: 'Abel', sans-serif;
+    font-size: 1.5rem;
+    line-height: 2;
+}
+hr{
+    border: dotted #eaf6f6 6px;
+    border-bottom-style: none;
+    width: 5%;
+    margin: 50px auto;
+}
+.topContainer{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 100%;
+    background-color: #e4f9ff;
+    padding-top: 5rem;
+    position: relative;
+    align-items: center;
+}
+.middleContainer{
+    margin: 0 0;
+}
+.landscape{
+    position: absolute;
+    top: 14.3rem;
+    z-index: 0;
+}
+.cloud1{
+    position: absolute;
+    top: 15rem;
+    right: 15rem;
+}
+.cloud2{
+    position: absolute;
+    top: 8rem;
+    left: 15rem;
+}
+.paragraph1{
+    margin: 0 auto;
+    padding: 2rem;
+    font-size: 1.5rem;
+    position: absolute;
+    z-index: 1;
+    top: 10rem;
+}
+.logo{
+    margin: 0 auto;
+    width: 15%;
+    border-radius: 100%;   
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    padding-top: 2rem;
+    background-color: #ecf4f3;
+
+}
+.intro{
+    width: 30%;
+    margin: 0;
+    padding: 0.5rem;
+}
+.skills{
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.skill-row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 0.5rem;
+}
+.contact-me{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.lastParagraph{
+    width: 30%;
+}
+.socials a{
+    color: black;
+    padding: 2rem;
+}
+.socials a:hover{
+    color: #a6f6f1;
+}
+.footer{
+    background-color: #41aea9;
+    margin-top: 2rem;
+}
+.footer p{
+    margin: 0;
+}
